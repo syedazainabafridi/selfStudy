@@ -1,2 +1,2 @@
 # selfStudy
-This is for self study
+This is for self study for git

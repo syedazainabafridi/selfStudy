@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mrow {
+    height: 100vh;
+    width: 100vw;
+}
+.col7 {
+    background-color: rgb(32, 40, 37);
+}
+.col5 {
+    background-color: pink;
+}
+.nav {
+    height: 40px;
+    background-color: purple;
+}
+.profile1{
+    margin-bottom: 2rem;
+}
+.head5 {
+    margin-top: 1.4rem;
+    margin-left: 1.5rem;
+}
+.call {
+    margin-top: 0.9rem;
+    margin-left: 8.5rem;
+    font-size: auto;
+}
+.vcall {
+    margin-top: 0.9rem;
+    margin-left: 1.8rem;
+    font-size: auto;
+}
+.profile1{
+    margin-bottom: 0.8rem;
+    margin-left: 0.3rem;
+}
+.chtbx {
+    height: 515px;
+    background-image: linear-gradient(to right, mediumvioletred,coral);
+}
+.msg {
+    margin-top: 2rem;
+    background-color: pink;
+    height: 35px;
+    /* width: 150px; */
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+.typpanel {
+    background-color: bisque;
+    margin-top: 2.1rem;
+}
+.typbx {
+    height: 50px;
+    width: 250px;
+    font-size: 0.8rem;
+}
+.rigid {
+    display: inline-block;
+}
+.atch {
+    /* font-size: 1.4rem; */
+    font-size: auto;
+    margin-left: 0.5rem;
+}
+.emoji {
+    /* font-size: 1.4rem; */
+    margin-left: 0.8rem;
+    font-size: auto;
+}
+.send {
+    /* font-size: 1.4rem; */
+    margin-left: 1.2rem;
+    font-size: auto;
+}
+.rghtnav {
+    height: 8vh;
+    background-color: mediumvioletred;
+}
+.rghth5 {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-top: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.span{
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.toggle{
+    display: inline-block;
+    margin-left: 2rem;
+}
+.mycht{
+    background-color: purple;
+    height: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 0.6rem;
+    font-weight: 700;
+}
+.img1{
+    margin-top: 1rem;
+}
+.cht{
+    background-color: pink;
+}
+.s{
+    margin-left: 1rem;
+    font-weight: 700;
+}
+.of1{
+    margin-top: -24px;
+    font-weight: 400;
+    font-style: italic;
+}
+@media (min-width:180px) and (max-width:766px){
+.chtbx{
+    height: 650px;
+    background-image: linear-gradient(to right, mediumvioletred,coral);
+}
+.rghtnav{
+    height: 50px;
+}
+.rghth5{
+padding-bottom: 2rem;
+}
+.span{
+    padding-bottom: 2rem;
+}
+.nav{
+    height: 50px;
+}
+.head5 {
+    margin-top: 0.7rem;
+}
+.call{
+
+}
+}
+@media (min-width:767px) and (max-width:2040px){
+.msg{
+    height: 25px;
+    margin-top: 1.1rem;
+margin-bottom: 1rem;
+}
+.msg1{
+    margin-top: 1.4rem;
+}
+.typbx {
+    height: 50px;
+    width: 300px;
+    font-size: 0.8rem;
+}
+.head5 {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+.rghtnav{
+    height: 53px;
+}
+.rghth5{
+    font-size: 0.7rem;
+   
+}
+.span{
+    font-size: 0.7rem;
+    margin-left: 0.4rem;
+}
+.chtbx{
+    height:515px;
+}
+.rigid{
+    height: 55px;
+}
+.profile1{
+    background-size: cover;
+}
+.typpanel{
+    /* margin-top: 0.3rem; */
+}
+}

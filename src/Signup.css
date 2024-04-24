@@ -1,0 +1,50 @@
+body{
+    background-image: url("chatbg.png"); 
+}
+.cont1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("chatbg.png");
+    background-size: cover;
+}
+.ro1{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(30px);
+}
+.cole{
+   border: 1px solid purple;
+   border-radius: 25px;
+   box-shadow: 0 0 10px purple;
+   color: purple;
+   font-weight: 600;
+   
+}
+.b{
+    background-color: rgb(104, 3, 104); 
+    font-size: 1rem;
+    color: rgb(207, 113, 79);
+    font-weight: 700;
+    border-radius: 20px;
+}
+.b1{
+    margin-top: 1rem;
+}
+.b2{
+    margin-bottom: 1rem;
+}
+.h5{
+color: purple;
+margin-top: 1rem;
+text-align: center;
+}
+input::placeholder{
+    color: purple;
+}
+@media (min-width:180px) and (max-width:1277px){
+    .cole{
+        width: 350px;
+        
+    }
+}
